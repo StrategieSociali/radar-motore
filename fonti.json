@@ -1,0 +1,72 @@
+{
+  "A": [
+    "https://www.carbonbrief.org/feed/",
+    "https://www.qualenergia.it/feed/",
+    "https://asvis.it/rss",
+    "https://www.esgnews.it/feed/",
+    "https://valori.it/feed/",
+    "https://www.vita.it/feed/",
+    "https://www.secondowelfare.it/feed/",
+    "https://www.altreconomia.it/feed/",
+    "https://www.agendadigitale.eu/feed/",
+    "https://www.valigiablu.it/feed/",
+    "https://bitcoinmagazine.com/feed",
+    "https://www.labsus.org/feed/",
+    "https://www.lanuovaecologia.it/feed/"
+  ],
+  "A_filtrate": [
+    {
+      "url": "https://www.editorialedomani.it/rss",
+      "parole": [
+        "clima",
+        "energia",
+        "ambient",
+        "transizione",
+        "PNRR",
+        "sostenibil",
+        "rinnovabil",
+        "welfare",
+        "terzo settore",
+        "intelligenza artificiale",
+        "bitcoin",
+        "impres",
+        "emission"
+      ]
+    },
+    {
+      "url": "https://www.ilrestodelcarlino.it/ravenna/rss",
+      "parole": [
+        "bando",
+        "finanziament",
+        "contribut",
+        "pnrr",
+        "impres",
+        "sostenibil",
+        "rinnovabil",
+        "fotovoltaic",
+        "comunità energetica",
+        "transizione",
+        "rifiut",
+        "economia circolare",
+        "consulenza",
+        "alluvion",
+        "energia",
+        "ambientale"
+      ]
+    }
+  ],
+  "B": [
+    "https://simonwillison.net/atom/everything/",
+    "https://lwn.net/headlines/rss",
+    "https://www.agendadigitale.eu/sicurezza/feed/",
+    "https://www.agendadigitale.eu/industry-4-0/feed/",
+    "https://www.agendadigitale.eu/people-and-change/feed/",
+    "https://www.forumpa.it/feed/",
+    "https://www.ecodallecitta.it/feed/",
+    "https://www.bitcointrain.it/feed/",
+    "https://www.climalteranti.it/feed/",
+    "https://www.lavoce.info/feed/",
+    "https://www.forumdisuguaglianzediversita.org/feed/",
+    "https://fsfe.org/news/news.it.rss"
+  ]
+}

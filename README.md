@@ -16,10 +16,15 @@ Solo libreria standard di Python, e `curl` per la rete.
 Le routine leggono pagine web, quindi sono esposte a prompt injection: testo
 scritto su una pagina che un modello puo' scambiare per un ordine.
 
-Un repository pubblico si clona senza credenziali. Le routine lo clonano cosi',
-e quindi non hanno nessuna chiave per scriverci: anche un agente ingannato da
-una pagina non puo' modificare il codice che verra' eseguito il giorno dopo.
-E' sola lettura per costruzione, non per configurazione.
+Le routine girano in ambienti cloud dove tutto il traffico verso GitHub passa da
+un proxy, fuori dalla sessione, che lascia toccare solo i repository collegati
+alla sessione. Le credenziali vere non entrano mai nella sessione.
+
+Questo repository non si collega a nessuna routine: lo clonano dall'indirizzo
+pubblico, e per questo non possono scriverci. Anche un agente ingannato da una
+pagina non puo' modificare il codice che verra' eseguito il giorno dopo. Se il
+repository fosse privato, andrebbe collegato per poterlo leggere, e da quel
+momento le routine potrebbero scriverci su un ramo.
 
 Per la stessa ragione qui non ci sono credenziali, dati raccolti, ne' i criteri
 con cui i dati vengono filtrati.
